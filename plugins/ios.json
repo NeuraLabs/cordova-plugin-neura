@@ -1,0 +1,22 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.neura.cordova.sample"
+        },
+        "cordova-plugin-neura": {
+            "PACKAGE_NAME": "com.neura.cordova.sample"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "904777039558",
+            "PACKAGE_NAME": "com.neura.cordova.sample"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/C:\\NeuraSampleCordova\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "map": [
+                {
+                    "source": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/C:\\Users\\Android Developer\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\be4cf61b6664cdaeec9ef7a31e9c444e\\res\\values-or\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/home/ideasoft/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/68deca550208229d350f1ea5120a074e/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

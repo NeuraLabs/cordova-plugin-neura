@@ -1,0 +1,4 @@
+#Fri Nov 09 14:39:02 EET 2018
+base.0=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/12
+path.0=classes.dex
+renamed.0=classes.dex

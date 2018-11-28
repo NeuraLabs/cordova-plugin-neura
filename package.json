@@ -1,0 +1,13 @@
+{
+  "name": "com.neura.cordova.sample",
+  "version": "1.0.0",
+  "displayName": "NeuraSampleCordova",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^7.1.3"
+  }
+}
