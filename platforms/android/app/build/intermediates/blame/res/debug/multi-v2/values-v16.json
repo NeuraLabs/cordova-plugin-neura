@@ -1,41 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/C:\\NeuraSampleCordova\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
-            "map": [
-                {
-                    "source": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/C:\\Users\\Android Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1b745c940dd0447feecc40db85119ff4\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/C:\\Users\\Android Developer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\deff1f717afcc7f184d56f107e83990f\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/home/ideasoft/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/bcc6ad47df9c4a954bc6060210848525/res/values-v16/values-v16.xml",
@@ -45,25 +11,6 @@
                         "startOffsets": "55",
                         "endColumns": "65",
                         "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/ideasoft/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5ce7cf4231694169ced7a49015292ed3/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
                     }
                 }
             ]

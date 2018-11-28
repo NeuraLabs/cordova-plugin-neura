@@ -1,19 +1,7 @@
-#Fri Nov 09 16:02:41 EET 2018
-path.1=classes.dex
-path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
+#Wed Nov 28 13:52:20 EET 2018
+base.0=/home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.5=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/23
-base.4=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/20
-base.3=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/19
-base.2=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/22
-base.1=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/18
-base.0=/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/21
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex
+base.1=/home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0

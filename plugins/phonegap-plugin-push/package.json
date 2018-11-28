@@ -14,12 +14,11 @@
     "gitCommittish": null
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "git+https://github.com/phonegap/phonegap-plugin-push.git#ee4e8c8c5100e912070639bff7a9ee5db5ce6290",
   "_spec": "https://github.com/phonegap/phonegap-plugin-push",
-  "_where": "C:\\NeuraSampleCordova",
+  "_where": "/home/ideasoft/projects/neura_plugin/newNeuraSample",
   "author": {
     "name": "Adobe PhoneGap Team"
   },

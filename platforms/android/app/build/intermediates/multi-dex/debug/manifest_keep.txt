@@ -1,3 +1,2 @@
-# Referenced at /home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:73
+# Referenced at /home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:54
 -keep class android.support.multidex.MultiDexApplication { <init>(...); }
-

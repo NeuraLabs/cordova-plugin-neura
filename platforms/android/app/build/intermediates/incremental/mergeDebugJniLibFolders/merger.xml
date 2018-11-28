@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/ideasoft/projects/neura_plugin/NeuraSampleCordova/platforms/android/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/ideasoft/projects/neura_plugin/newNeuraSample/platforms/android/app/src/debug/jniLibs"/></dataSet></merger>

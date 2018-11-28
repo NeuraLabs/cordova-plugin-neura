@@ -28,76 +28,22 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-
-        <title>Neura Cordova Sample</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
     </head>
     <body>
-        <div>
+        <div class="app">
             <h1>Neura Sample</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
-        <div>
-            <p>
-                <input type="button" id="authenticate" value="Authenticate" />
-                <input type="button" id="anonymousAuthenticate" value="anonymusAuthenticate" />
-                <input type="button" id="forgetMe" value="Forget Me" />
-            </p>
-            <p>
-                <input type="button" id="getSubscriptions" value="Get Subscriptions" />
-            </p>
-            <p>
-                <input type="button" id="subscribeLeftHome" value="Subscribe Left Home" />
-                <input type="button" id="subscribeLeftWork" value="Subscribe Left Work" />
-            </p>
-            <p>
-                <input type="button" id="unsubscribeLeftHome" value="Unsubscribe Left Home" />
-                <input type="button" id="unsubscribeLeftWork" value="Unsubscribe Left Work" />
-            </p>
-            <p>
-                <input type="button" id="shouldSubscribeUserPhone" value="Should Subscribe User Phone?" />
-                <input type="button" id="shouldSubscribeLeftWork" value="Should Subscribe Left Work?" />
-            </p>
-            <p>
-                <input type="button" id="getAppPermissions" value="Get App Permissions" />
-                <input type="button" id="getPermissionStatus" value="Get Permissions Status" />
-            </p>
-            <p>
-                <input type="button" id="enableLogFile" value="Enable Log File" />
-                <input type="button" id="enableNeuraHandingStateAlertMessages" value="Enable Neura Handing State Alert Messages" />
-                <input type="button" id="getSdkVersion" value="Get SDK Version" />
-            </p>
-            <p>
-                <input type="button" id="isMissingDataForEvent" value="Is Missing Data For Event" />
-                <input type="button" id="getMissingDataForEvent" value="Get Missing Data For Event" />
-            </p>
-            <p>
-                <input type="button" id="getKnownDevices" value="Get Known Devices" />
-            </p>
-            <p>
-                <input type="button" id="getKnownCapabilities" value="Get Known Capabilities" />
-                <input type="button" id="hasDeviceWithCapability" value="Has Device With Capability" />
-                <input type="button" id="addDevice" value="Add Device" />
-                <input type="button" id="addDeviceByCapabilities" value="Add Device by capabilities" />
-                <input type="button" id="addDeviceByName" value="Add Device By Name" />
-            </p>
-            <p>
-                <input type="button" id="getUserDetails" value="Get User Details" />
-                <input type="button" id="getUserPhone" value="Get User Phone" />
-                <input type="button" id="getUserSituation" value="Get User Situation" />
-            </p><p>
-                <input type="button" id="simulateUserLeftHome" value="Simulate Event: userLeftHome" />
-            </p>
-        </div>
-
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
-
