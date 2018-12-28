@@ -1,52 +1,21 @@
 {
-  "_from": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git",
-  "_id": "cordova-neura-plugin@0.1.0",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/cordova-neura-plugin",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "rawSpec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "saveSpec": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "fetchSpec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git#c3c92bf8c84ac01e134415ea5fb37fe7f6c20d0c",
-  "_spec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-  "_where": "C:\\IdeaSoft\\NeuraSampleCordova",
-  "author": {
-    "name": "Neura"
-  },
-  "bugs": {
-    "url": "https://github.com/NeuraLabs/cordova-neura-plugin/issues"
-  },
-  "bundleDependencies": false,
+  "name": "com.neura.cordova.sample",
+  "version": "1.0.0",
+  "displayName": "NeuraSampleCordova",
   "cordova": {
-    "id": "cordova-plugin-neura",
     "platforms": [
-      "android",
-      "ios"
-    ]
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-neura": {},
+      "phonegap-plugin-push": {}
+    }
   },
-  "deprecated": false,
-  "description": "Cordova Neura Plugin",
-  "homepage": "https://github.com/NeuraLabs/cordova-neura-plugin#readme",
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
-  "license": "ISC",
-  "name": "cordova-neura-plugin",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git"
-  },
-  "version": "0.1.0"
+  "dependencies": {
+    "cordova-android": "^7.1.4",
+    "cordova-plugin-neura": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
+    "cordova-plugin-whitelist": "1",
+    "phonegap-plugin-push": "https://github.com/phonegap/phonegap-plugin-push"
+  }
 }
