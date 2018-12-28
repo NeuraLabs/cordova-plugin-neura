@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/adi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/4c16f9b43017fd0343f6222672e58462/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "113",
+                        "endLines": "7",
+                        "endColumns": "13",
+                        "endOffsets": "385"
+                    }
+                },
+                {
+                    "source": "/Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

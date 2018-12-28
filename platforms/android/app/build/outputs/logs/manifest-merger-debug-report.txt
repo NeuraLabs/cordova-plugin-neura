@@ -1,0 +1,1241 @@
+-- Merging decision tree log ---
+activity#com.adobe.phonegap.push.PushHandlerActivity
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:17:9-173
+	android:exported
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:17:19-42
+	android:permission
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:17:102-170
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:17:43-101
+manifest
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:support-v13:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/3f87d443775128c4b9bd11e8aea4b796/AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/adi/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/84c0a228fd351e4f2f525c87d4039a13/AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] /Users/adi/Projects/Integration/cordova-plugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:2:1-352:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-awareness:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-awareness-15.0.1.aar/8c756db62695b91451dd6a9c59c74a5f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d349988e33b01f252c24992b14fd820e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e4a1a824a06e07aa765d64e52d923d18/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/ee4cf17af5aaf3eafbc320c3c2472c48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/4c16f9b43017fd0343f6222672e58462/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/ba6bb3135eec931a04ff5e6e0969f4b0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/64d68ffe4d6401be8c4a0ed2e71f6d90/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a9931c71978548addf2af22bf62fc301/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/d1b919c516fb8447bf664d21010879cc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/faa93b0d71c787642ced7f50e4166f64/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0049399fa009b7e43d4fe007cb8d82eb/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/a35200f0d2eada68b61c4cdb3480d2ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/970a08f7b109e042d689d3fe03c25c44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4b2225fc1e979a3d5074c6fe993bf3eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/18b4d7dac3eaaaf071e5ada551ac08a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/7374d1b2c84de61e7ee09bc859adcaad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/d4113df5e19f9ed62b781e638b2f92ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/c4edba37df09297ed9706dd347a2c03a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/da02af9ba88f29396ba40c7dcdf56bbf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/c8f881ebadc7a6f78c458b71cad78a22/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/5609e486811b2b13499fc9f1add8ae0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/a996f91b9448f38d5b8414d872964c37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/d6128de11fffd4c0bf083801442e8705/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/c5b9665a513d59483a1500bd9835dd6a/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:102-136
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:137-195
+	android:versionCode
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:22:5-67
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:5:5-30:19
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:30:5-350:19
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:30:5-350:19
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-awareness:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-awareness-15.0.1.aar/8c756db62695b91451dd6a9c59c74a5f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-awareness-15.0.1.aar/8c756db62695b91451dd6a9c59c74a5f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d349988e33b01f252c24992b14fd820e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d349988e33b01f252c24992b14fd820e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e4a1a824a06e07aa765d64e52d923d18/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e4a1a824a06e07aa765d64e52d923d18/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/ba6bb3135eec931a04ff5e6e0969f4b0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/ba6bb3135eec931a04ff5e6e0969f4b0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/64d68ffe4d6401be8c4a0ed2e71f6d90/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/64d68ffe4d6401be8c4a0ed2e71f6d90/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a9931c71978548addf2af22bf62fc301/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a9931c71978548addf2af22bf62fc301/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/d1b919c516fb8447bf664d21010879cc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/d1b919c516fb8447bf664d21010879cc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/faa93b0d71c787642ced7f50e4166f64/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/faa93b0d71c787642ced7f50e4166f64/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0049399fa009b7e43d4fe007cb8d82eb/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0049399fa009b7e43d4fe007cb8d82eb/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/a35200f0d2eada68b61c4cdb3480d2ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/a35200f0d2eada68b61c4cdb3480d2ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/d6128de11fffd4c0bf083801442e8705/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/d6128de11fffd4c0bf083801442e8705/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/c5b9665a513d59483a1500bd9835dd6a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/c5b9665a513d59483a1500bd9835dd6a/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:fullBackupContent
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:32:9-66
+	android:allowBackup
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:31:9-35
+	android:icon
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.neura.cordova.sample.MainActivity
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+service#com.neura.cordova.plugin.NeuraEventsService
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:12:18-76
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:13:13-15:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:14:25-75
+receiver#com.adobe.phonegap.push.BackgroundActionButtonHandler
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:18:9-90
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:18:19-87
+receiver#com.adobe.phonegap.push.PushDismissedHandler
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:19:9-81
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:19:19-78
+service#com.adobe.phonegap.push.FCMService
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:20:9-24:19
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:20:18-67
+service#com.adobe.phonegap.push.PushInstanceIDListenerService
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:25:9-29:19
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:25:18-86
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:26:13-28:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:27:17-80
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:27:25-77
+uses-sdk
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:31:5-74
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:31:5-74
+MERGED from [com.android.support:support-v13:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/3f87d443775128c4b9bd11e8aea4b796/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/3f87d443775128c4b9bd11e8aea4b796/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/adi/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/84c0a228fd351e4f2f525c87d4039a13/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/adi/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/84c0a228fd351e4f2f525c87d4039a13/AndroidManifest.xml:20:5-43
+MERGED from [:CordovaLib] /Users/adi/Projects/Integration/cordova-plugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/adi/Projects/Integration/cordova-plugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-awareness-15.0.1.aar/8c756db62695b91451dd6a9c59c74a5f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-awareness-15.0.1.aar/8c756db62695b91451dd6a9c59c74a5f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d349988e33b01f252c24992b14fd820e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d349988e33b01f252c24992b14fd820e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e4a1a824a06e07aa765d64e52d923d18/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e4a1a824a06e07aa765d64e52d923d18/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/ee4cf17af5aaf3eafbc320c3c2472c48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/ee4cf17af5aaf3eafbc320c3c2472c48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/4c16f9b43017fd0343f6222672e58462/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/4c16f9b43017fd0343f6222672e58462/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/ba6bb3135eec931a04ff5e6e0969f4b0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/ba6bb3135eec931a04ff5e6e0969f4b0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/64d68ffe4d6401be8c4a0ed2e71f6d90/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/64d68ffe4d6401be8c4a0ed2e71f6d90/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a9931c71978548addf2af22bf62fc301/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a9931c71978548addf2af22bf62fc301/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/d1b919c516fb8447bf664d21010879cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/d1b919c516fb8447bf664d21010879cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/faa93b0d71c787642ced7f50e4166f64/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/faa93b0d71c787642ced7f50e4166f64/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0049399fa009b7e43d4fe007cb8d82eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0049399fa009b7e43d4fe007cb8d82eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/a35200f0d2eada68b61c4cdb3480d2ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/a35200f0d2eada68b61c4cdb3480d2ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/970a08f7b109e042d689d3fe03c25c44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/970a08f7b109e042d689d3fe03c25c44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4b2225fc1e979a3d5074c6fe993bf3eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4b2225fc1e979a3d5074c6fe993bf3eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/18b4d7dac3eaaaf071e5ada551ac08a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/18b4d7dac3eaaaf071e5ada551ac08a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/7374d1b2c84de61e7ee09bc859adcaad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/7374d1b2c84de61e7ee09bc859adcaad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/d4113df5e19f9ed62b781e638b2f92ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/d4113df5e19f9ed62b781e638b2f92ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/c4edba37df09297ed9706dd347a2c03a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/c4edba37df09297ed9706dd347a2c03a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/da02af9ba88f29396ba40c7dcdf56bbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/da02af9ba88f29396ba40c7dcdf56bbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/c8f881ebadc7a6f78c458b71cad78a22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/c8f881ebadc7a6f78c458b71cad78a22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/5609e486811b2b13499fc9f1add8ae0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/5609e486811b2b13499fc9f1add8ae0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/a996f91b9448f38d5b8414d872964c37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/a996f91b9448f38d5b8414d872964c37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/d6128de11fffd4c0bf083801442e8705/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/d6128de11fffd4c0bf083801442e8705/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/c5b9665a513d59483a1500bd9835dd6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/c5b9665a513d59483a1500bd9835dd6a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:31:5-74
+	android:targetSdkVersion
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:31:42-71
+	android:minSdkVersion
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:31:15-41
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:32:5-79
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:18:5-79
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:32:22-76
+uses-permission#android.permisssion.ACCESS_COARSE_LOCATION
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:33:5-82
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:33:22-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:34:5-79
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:28:5-79
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:28:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:34:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:35:5-68
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:21:5-68
+MERGED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:21:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:35:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from /Users/adi/Projects/Integration/cordova-plugin/platforms/android/app/src/main/AndroidManifest.xml:36:22-63
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/adi/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/d88c40c1f0c1158ebb24c02a68d0da51/AndroidManifest.xml:50:22-86
+uses-feature#android.hardware.bluetooth
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:12:9-50
+uses-feature#android.hardware.location
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:15:9-49
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:20:22-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:25:5-86
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:25:22-83
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:26:5-94
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:26:22-91
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:27:22-78
+meta-data#com.google.android.awareness.API_KEY
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:35:9-37:71
+	android:value
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:37:13-68
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:36:13-64
+receiver#com.neura.android.receiver.NeuraReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:39:9-77:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:41:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:40:13-68
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.LOCKED_BOOT_COMPLETED+android.intent.action.MY_PACKAGE_REPLACED+com.neura.android.ACTION_AUTHENTICATION_COMPLETE+com.neura.android.ACTION_AUTHENTICATION_COMPLETE_BY_NEURA_APP+com.neura.android.ACTION_CALL_PERSON_FROM_NOTIFICATION_ACTION+com.neura.android.ACTION_DATA_COLLECTION_ACTIVATION_NEEDED+com.neura.android.ACTION_DATA_SYNC_REQUIRED+com.neura.android.ACTION_EVENT_FROM_DOZE+com.neura.android.ACTION_GCM_REGISTRATION_ID_UPDATED+com.neura.android.ACTION_LOCATION_CHANGED+com.neura.android.ACTION_MESSAGE_PERSON_FROM_NOTIFICATION_ACTION+com.neura.android.ACTION_MUTE_NOTIFICATION_ACTION+com.neura.android.ACTION_NETWORK_IS_ACTIVE+com.neura.android.ACTION_NOTIFICATION_CLICKED+com.neura.android.ACTION_REGISTER_EVENT+com.neura.android.ACTION_SYNC_RAW_DATA_POST_AUTHENTICATION+com.neura.android.ACTION_UNREGISTER_EVENT+com.neura.android.ACTION_USER_LOGGED_OUT+com.neura.android.SDK_AUTHENTICATE_SUCCESSFUL
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:42:13-70:29
+action#com.neura.android.ACTION_LOCATION_CHANGED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:50:17-84
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:50:25-81
+action#com.neura.android.ACTION_DATA_COLLECTION_ACTIVATION_NEEDED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:51:17-101
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:51:25-98
+action#com.neura.android.ACTION_DATA_SYNC_REQUIRED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:52:17-86
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:52:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:53:17-79
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:53:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:54:17-86
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:54:25-83
+action#com.neura.android.ACTION_AUTHENTICATION_COMPLETE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:55:17-91
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:55:25-88
+action#com.neura.android.ACTION_AUTHENTICATION_COMPLETE_BY_NEURA_APP
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:56:17-104
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:56:25-101
+action#com.neura.android.ACTION_USER_LOGGED_OUT
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:57:17-83
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:57:25-80
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:58:17-84
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:58:25-81
+action#com.neura.android.ACTION_REGISTER_EVENT
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:59:25-79
+action#com.neura.android.ACTION_UNREGISTER_EVENT
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:60:17-84
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:60:25-81
+action#com.neura.android.ACTION_GCM_REGISTRATION_ID_UPDATED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:61:17-95
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:61:25-92
+action#com.neura.android.ACTION_CALL_PERSON_FROM_NOTIFICATION_ACTION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:62:17-104
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:62:25-101
+action#com.neura.android.ACTION_MESSAGE_PERSON_FROM_NOTIFICATION_ACTION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:63:17-107
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:63:25-104
+action#com.neura.android.ACTION_MUTE_NOTIFICATION_ACTION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:64:17-92
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:64:25-89
+action#com.neura.android.ACTION_NOTIFICATION_CLICKED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:65:17-88
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:65:25-85
+action#com.neura.android.ACTION_NETWORK_IS_ACTIVE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:66:17-85
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:66:25-82
+action#com.neura.android.ACTION_EVENT_FROM_DOZE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:67:17-83
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:67:25-80
+action#com.neura.android.ACTION_SYNC_RAW_DATA_POST_AUTHENTICATION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:68:17-101
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:68:25-98
+action#com.neura.android.SDK_AUTHENTICATE_SUCCESSFUL
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:69:17-88
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:69:25-85
+intent-filter#android.intent.action.PACKAGE_REMOVED+android.intent.action.PACKAGE_REPLACED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:71:13-76:29
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:72:17-81
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:72:25-78
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:73:17-80
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:73:25-77
+data
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:75:17-50
+	android:scheme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:75:23-47
+service#com.neura.android.service.DataSyncJobService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:79:9-82:72
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:81:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:82:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:80:13-72
+service#com.neura.android.service.KeepAliveSyncIntentService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:83:9-85:40
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:84:13-80
+service#com.neura.android.service.StopCustomStepDetectorServiceWithWakeLock
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:86:9-89:72
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:88:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:89:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:87:13-95
+activity#com.neura.dashboard.activity.AppAuthenticationActivity
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:90:9-95:55
+	android:screenOrientation
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:93:13-49
+	android:windowSoftInputMode
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:95:13-52
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:92:13-37
+	android:theme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:94:13-59
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:91:13-82
+activity#com.neura.dashboard.activity.AppAuthenticationLightActivity
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:96:9-100:62
+	android:screenOrientation
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:99:13-49
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:98:13-37
+	android:theme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:100:13-59
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:97:13-87
+activity#com.neura.dashboard.activity.PickersActivity
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:101:9-110:55
+	android:screenOrientation
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:105:13-66
+	android:excludeFromRecents
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:103:13-46
+	android:windowSoftInputMode
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:110:13-52
+	android:noHistory
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:106:13-37
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:104:13-37
+	android:theme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:109:13-69
+	android:taskAffinity
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:108:13-55
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:102:13-72
+activity#com.neura.dashboard.activity.EventSimulationActivity
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:111:9-115:69
+	android:screenOrientation
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:114:13-49
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:113:13-37
+	android:theme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:115:13-66
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:112:13-80
+activity#com.neura.dashboard.activity.TransparentPermissionActivity
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:116:9-119:75
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:118:13-37
+	android:theme
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:119:13-72
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:117:13-86
+service#com.neura.android.service.activity.ActivityRecognitionIntentService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:120:9-123:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:122:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:123:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:121:13-95
+service#com.neura.android.service.GeofenceIntentService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:124:9-127:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:126:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:125:13-75
+service#com.neura.android.service.location.LocationHandlerService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:128:9-131:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:130:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:129:13-85
+service#com.neura.android.service.StepDetectionService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:132:9-135:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:134:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:135:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:133:13-74
+service#com.neura.android.service.DeviceIdleService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:152:9-155:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:154:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:155:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:153:13-71
+service#com.neura.android.service.activity.ActivityRecognitionTimerService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:156:9-159:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:158:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:159:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:157:13-94
+service#com.neura.android.service.SyncSecondaryCollectionsIntentService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:160:9-163:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:162:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:161:13-91
+receiver#com.neura.android.receiver.DeviceStateMonitorReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:165:9-179:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:167:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:166:13-81
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED+android.intent.action.ACTION_SHUTDOWN+android.intent.action.AIRPLANE_MODE+android.intent.action.BATTERY_LOW+android.intent.action.BATTERY_OKAY+android.intent.action.BOOT_COMPLETED+android.intent.action.LOCKED_BOOT_COMPLETED+android.location.PROVIDERS_CHANGED+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:168:13-178:29
+action#android.location.PROVIDERS_CHANGED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:169:17-77
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:169:25-74
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:170:17-80
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:170:25-77
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:173:17-78
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:173:25-75
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:174:17-89
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:174:25-86
+action#android.intent.action.AIRPLANE_MODE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:175:17-78
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:175:25-75
+action#android.intent.action.BATTERY_LOW
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:176:17-76
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:176:25-73
+action#android.intent.action.BATTERY_OKAY
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:177:17-77
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:177:25-74
+receiver#com.neura.android.bt.BluetoothStateReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:180:9-188:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:182:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:181:13-71
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED+android.bluetooth.device.action.ACL_CONNECTED+android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:183:13-187:29
+action#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:184:17-88
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:184:25-85
+action#android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:185:17-91
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:185:25-88
+service#com.neura.android.coordinate.CoordinatorService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:190:9-197:19
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:192:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:191:13-75
+intent-filter#com.neura.android.ACTION_NEURA_COORDINATION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:194:13-196:29
+action#com.neura.android.ACTION_NEURA_COORDINATION
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:195:17-86
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:195:25-83
+service#com.neura.android.coordinate.CoordinatorJob
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:198:9-202:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:200:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:201:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:202:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:199:13-71
+service#com.neura.core.data.foreground.ForegroundService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:203:9-206:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:205:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:206:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:204:13-76
+service#com.neura.android.service.RunningModeService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:207:9-210:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:209:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:210:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:208:13-72
+service#com.neura.android.service.RunningModeJob
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:211:9-215:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:213:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:214:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:215:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:212:13-68
+service#com.neura.android.service.StateAlertService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:216:9-219:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:218:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:219:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:217:13-71
+service#com.neura.android.service.StateAlertJob
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:220:9-224:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:222:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:223:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:224:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:221:13-67
+service#com.neura.android.service.stepdetection.CustomStepDetectorServiceWithWakelock
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:225:9-228:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:227:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:228:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:226:13-105
+service#com.neura.android.service.InternetConnectivityService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:229:9-233:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:231:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:232:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:233:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:230:13-81
+service#com.neura.android.service.SyncRawDataService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:234:9-237:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:236:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:237:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:235:13-72
+service#com.neura.android.service.ActivityLocationWatchdogJobService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:238:9-242:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:240:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:241:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:242:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:239:13-88
+service#com.neura.android.service.ActivityLocationWatchdogIntentService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:243:9-246:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:245:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:246:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:244:13-91
+service#com.neura.android.authentication.PushRequestJobService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:247:9-251:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:249:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:250:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:251:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:248:13-82
+service#com.neura.android.service.ScanJobService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:252:9-256:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:254:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:255:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:256:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:253:13-68
+service#com.neura.android.service.SyncJobService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:257:9-261:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:259:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:260:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:261:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:258:13-68
+service#com.neura.networkproxy.sync.DelayedSync
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:262:9-266:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:264:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:265:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:266:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:263:13-67
+service#com.neura.android.service.ScanService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:267:9-270:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:269:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:270:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:268:13-65
+service#com.neura.android.service.location.LocationHandlerJob
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:271:9-275:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:273:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:274:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:275:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:272:13-81
+service#com.neura.android.service.CommandService
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:276:9-279:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:278:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:279:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:277:13-68
+service#com.neura.android.service.CommandJob
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:280:9-284:72
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:282:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:283:13-37
+	android:permission
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:284:13-69
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:281:13-64
+receiver#com.neura.android.authentication.PushRequestReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:286:9-289:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:288:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:289:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:287:13-80
+receiver#com.neura.android.receiver.ScanRequestReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:290:9-298:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:292:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:293:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:291:13-74
+intent-filter#com.neura.android.ACTION_SCAN_BLE+com.neura.android.ACTION_SCAN_VAP
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:294:13-297:29
+action#com.neura.android.ACTION_SCAN_BLE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:295:17-76
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:295:25-73
+action#com.neura.android.ACTION_SCAN_VAP
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:296:17-76
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:296:25-73
+receiver#com.neura.android.receiver.RunningModeBroadcastReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:299:9-306:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:301:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:302:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:300:13-83
+intent-filter#com.neura.ACTION_RUNNING_MODE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:303:13-305:29
+action#com.neura.ACTION_RUNNING_MODE
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:304:17-72
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:304:25-69
+receiver#com.neura.core.data.collectors.receivers.GoogleLocationReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:307:9-310:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:309:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:310:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:308:13-91
+receiver#com.neura.core.data.collectors.receivers.GoogleARReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:311:9-314:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:313:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:314:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:312:13-85
+receiver#com.neura.core.data.collectors.receivers.GoogleFenceReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:315:9-318:40
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:317:13-35
+	android:exported
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:318:13-37
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:316:13-88
+receiver#com.neura.core.data.collectors.receivers.ScreenBroadcastReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:319:9-326:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:321:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:320:13-92
+intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:322:13-325:29
+action#android.intent.action.SCREEN_ON
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:323:17-74
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:323:25-71
+action#android.intent.action.SCREEN_OFF
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:324:17-75
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:324:25-72
+receiver#com.neura.core.data.collectors.receivers.BluetoothBroadcastReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:327:9-334:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:329:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:328:13-95
+intent-filter#android.bluetooth.device.action.ACL_CONNECTED+android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:330:13-333:29
+receiver#com.neura.core.data.collectors.receivers.PowerBroadcastReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:335:9-342:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:337:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:336:13-91
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:338:13-341:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:339:17-87
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:339:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:340:17-90
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:340:25-87
+receiver#com.neura.core.data.collectors.receivers.AudioHeadsetBroadcastReceiver
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:343:9-349:20
+	android:enabled
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:345:13-35
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:344:13-98
+intent-filter#android.intent.action.HEADSET_PLUG
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:346:13-348:29
+action#android.intent.action.HEADSET_PLUG
+ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:347:17-77
+	android:name
+		ADDED from [com.theneura:android-sdk:5.3.4] /Users/adi/.gradle/caches/transforms-1/files-1.1/android-sdk-5.3.4.aar/4bb9c2f4e4be3506d18713d0103a39ba/AndroidManifest.xml:347:25-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ae86d325cdc773760dbec456d68177d3/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/38073c5913fb39d888dd1a9db3aa6048/AndroidManifest.xml:23:22-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/5c9e3b6145e899efbbbfc2c96d0b7032/AndroidManifest.xml:29:13-82
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/caed0d74bd1d04bc036b556c143247cb/AndroidManifest.xml:28:9-32
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/b5754ceacf3226dd27a16c6dd7fdaffe/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/29403dadda9bd5edf865c5fe8acc86bd/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/74062e94dc3286b6e8a03adfba8f447e/AndroidManifest.xml:49:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:29:9-63
+permission#com.neura.cordova.sample.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:32:22-76
+uses-permission#com.neura.cordova.sample.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:42:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:45:13-49:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.neura.cordova.sample
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:48:27-58
+category#com.neura.cordova.sample
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/00fad2d537ebd601ced210c8a3d02641/AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/317e8ba01e63f424c7239c9a37daeb5c/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9cbb5eb6e5e6dca422ceca309773381b/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adi/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/473a8139431fd2924f55c4907c8a5e43/AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/adi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e3b43e4797e4beba68f021aa24935d99/AndroidManifest.xml:26:13-58
