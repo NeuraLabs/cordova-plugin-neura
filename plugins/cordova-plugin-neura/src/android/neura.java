@@ -1,8 +1,10 @@
 package com.neura.cordova.plugin;
 
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -51,7 +53,7 @@ public class neura extends CordovaPlugin {
         if (mNeuraApiClient==null)
         init1();
         try {
-            
+            checkLocation();
             if (action.equals("authenticate")) {
                 this.authenticate1(args, callbackContext);
                 return true;
@@ -91,6 +93,15 @@ public class neura extends CordovaPlugin {
 
         return false;
     }
+    private void checkLocation(){
+        if (ActivityCompat.checkSelfPermission(mInterface.getActivity(),
+                android.Manifest.permission.ACCESS_FINE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mInterface.getActivity(),
+                android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(mInterface.getActivity(),
+                    new String[]{ android.Manifest.permission.ACCESS_FINE_LOCATION}, 1111);
+        }
+    }
 
     private void authenticate1(JSONArray args, CallbackContext callbackContext) {
 
@@ -122,7 +133,6 @@ public class neura extends CordovaPlugin {
         AuthenticationState authenticationState=mNeuraApiClient.getAnonymousAuthenticationState();
         Log.wtf("auth",authenticationState.toString());
         Toast.makeText(mInterface.getContext(), authenticationState.toString(),Toast.LENGTH_SHORT).show();
-        callbackContext.success(authenticationState.name());
     }
 
     
@@ -152,30 +162,31 @@ public class neura extends CordovaPlugin {
 
     private void subscribeToEvent(JSONArray args, final CallbackContext callbackContext) {
         try {
-            //Define moments you would like to subscribe to.
+/*            //Define moments you would like to subscribe to.
             List<String> moments = Arrays.asList("userStartedWalking", "userFinishedWalking",
                     "userStartedDriving", "userFinishedDriving", "userWokeUp", "userGotUp", "userIsIdleFor2Hours",
                     "userIsAboutToGoToSleep", "userArrivedHome", "userLeftHome",
                     "userArrivedToWork", "userLeftWork");
 
 //Subscribe to the moments you wish Neura to alert you :
-            for (int i = 0; i < moments.size(); i++) {
+            for (int i = 0; i < moments.size(); i++) {*/
 // YourMomentIdentifier_ is recommended to be the NeuraID of the user for follow up with customer suppport
-                mNeuraApiClient.subscribeToEvent(moments.get(i) ,
-                        "YourMomentIdentifier_" + moments.get(i) ,
+                mNeuraApiClient.subscribeToEvent("userArrivedToWork" ,
+                        "YourMomentIdentifier_userArrivedToWork" ,
                         new SubscriptionRequestCallbacks() {
                             @Override
                             public void onSuccess(String eventName, Bundle bundle, String s1) {
                                 Log.i(getClass().getSimpleName(), "Successfully subscribed to event " + eventName);
-
+                                callbackContext.success(eventName);
                             }
 
                             @Override
                             public void onFailure(String eventName, Bundle bundle, int i) {
                                 Log.e(getClass().getSimpleName(), "Failed to subscribe to event " + eventName);
+                                callbackContext.error(i);
                             }
                         });
-            }
+
         } catch (Exception e) {
             e.printStackTrace();
 
@@ -184,7 +195,7 @@ public class neura extends CordovaPlugin {
     }
 
     private void simulateUserLeftHome(@SuppressWarnings("UnusedParameters") JSONArray args, final CallbackContext callbackContext) {
-        mNeuraApiClient.simulateAnEvent("userLeftHome", new SimulateEventCallBack() {
+        mNeuraApiClient.simulateAnEvent("userArrivedToWork", new SimulateEventCallBack() {
             @Override
             public void onSuccess(String s) {
                 callbackContext.success();

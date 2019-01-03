@@ -81,7 +81,7 @@ var app = {
           output('Neura authenticate failed [' + errorCode + ']');
         };
 
-        neura.authenticate(["userLeftWork", "userLeftHome", "userPhoneNumber", "userDetails", "userSituation"],"", success, failure);
+        neura.authenticate([],"", success, failure);
       };
 
 
