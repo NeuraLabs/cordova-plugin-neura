@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "displayName": "NeuraSampleCordova",
   "cordova": {
-    "platforms": [
-      "android"
-    ],
+    "platforms": [],
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-neura": {},

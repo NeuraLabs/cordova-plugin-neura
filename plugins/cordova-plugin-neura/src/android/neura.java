@@ -16,6 +16,7 @@ import com.neura.resources.authentication.AuthenticationState;
 import com.neura.sdk.object.AnonymousAuthenticationRequest;
 import com.neura.sdk.service.SimulateEventCallBack;
 import com.neura.sdk.service.SubscriptionRequestCallbacks;
+import com.neura.standalonesdk.engagement.EngagementFeatureAction;
 import com.neura.standalonesdk.engagement.NeuraEngagements;
 import com.neura.standalonesdk.service.NeuraApiClient;
 import com.neura.standalonesdk.util.Builder;
@@ -81,6 +82,10 @@ public class neura extends CordovaPlugin {
                 this.tagEngagementAttempt(args, callbackContext);
                 return true;
             }
+			else if (action.equals("getToken")) {
+                this.getToken(args, callbackContext);
+                return true;
+            }
             else if (action.equals("tagEngagementFeature")) {
                 this.tagEngagementFeature(args, callbackContext);
                 return true;
@@ -102,7 +107,7 @@ public class neura extends CordovaPlugin {
                     new String[]{ android.Manifest.permission.ACCESS_FINE_LOCATION}, 1111);
         }
     }
-
+	
     private void authenticate1(JSONArray args, CallbackContext callbackContext) {
 
                        mNeuraApiClient.authenticate(new AnonymousAuthenticationRequest(FirebaseInstanceId.getInstance().getToken()), new AnonymousAuthenticateCallBack() {
@@ -120,12 +125,25 @@ public class neura extends CordovaPlugin {
                         });
     }
 
+	 private void getToken(JSONArray args, CallbackContext callbackContext) {
+	 try{
+		 String token = mNeuraApiClient.getUserAccessToken();
+		 Log.wtf("userToken",token);
+		 callbackContext.success(token);
+	 }
+	 catch(Exception e ){
+		 callbackContext.error(e.toString());
+	 }
+	 }
+
     private void tagEngagementFeature(JSONArray args, CallbackContext callbackContext) {
-        //NeuraEngagements.tagEngagementFeature(mInterface.getContext(),"feature","2",,"2");
+		NeuraEngagements.tagEngagementFeature(mInterface.getContext(),"feature","2",EngagementFeatureAction.SUCCESS,"feature");
+		callbackContext.success();
     }
 
     private void tagEngagementAttempt(JSONArray args, CallbackContext callbackContext) {
         NeuraEngagements.tagEngagementAttempt(mInterface.getContext(),"feature","1","red");
+        callbackContext.success();
 
     }
 

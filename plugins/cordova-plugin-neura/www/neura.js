@@ -1,3 +1,4 @@
+cordova.define("cordova-plugin-neura.neura", function(require, exports, module) {
 var exec = require('cordova/exec');
 
 module.exports = {
@@ -13,13 +14,18 @@ module.exports = {
     subscribeToEvent : function(eventName, webHookId, neuraSendEventViaPush, success, error) {
         exec(success, error, "neura", "subscribeToEvent", [eventName, webHookId, neuraSendEventViaPush]);
     },
-    simulateAnEvent : function(eventName, success, error) {
-        exec(success, error, "neura", "simulateAnEvent", [eventName]);
+    simulateAnEvent : function(success, error) {
+        exec(success, error, "neura", "simulateAnEvent");
     },
     tagEngagementAttempt : function(success, error) {
         exec(success, error, "neura", "tagEngagementAttempt", []);
     },
     tagEngagementFeature : function(success, error) {
         exec(success, error, "neura", "tagEngagementFeature", []);
+    },
+	getToken : function(success, error) {
+        exec(success, error, "neura", "getToken", []);
     }
 };
+
+});

@@ -148,6 +148,18 @@ var app = {
 
         neura.tagEngagementAttempt(success, failure);
       };
+	  
+      var getToken = function() {
+        var success = function(code) {
+          output(code);
+        };
+
+        var failure = function() {
+          output('Neura getToken failed failed');
+        };
+
+        neura.getToken(success, failure);
+      };
 
 
       document.getElementById("getAnonymousAuthenticationState").addEventListener("click", getAnonymousAuthenticationState);
@@ -157,6 +169,7 @@ var app = {
       document.getElementById("simulateAnEvent").addEventListener("click", simulateAnEvent);
       document.getElementById("tagEngagementAttempt").addEventListener("click", tagEngagementAttempt);
       document.getElementById("tagEngagementFeature").addEventListener("click", tagEngagementFeature);
+	  document.getElementById("getToken").addEventListener("click", getToken);
 
 
       var success = function() {
