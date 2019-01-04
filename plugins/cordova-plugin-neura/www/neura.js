@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-neura.neura", function(require, exports, module) {
 var exec = require('cordova/exec');
 
 module.exports = {
@@ -28,4 +27,3 @@ module.exports = {
     }
 };
 
-});
