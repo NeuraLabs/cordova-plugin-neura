@@ -11,43 +11,7 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 
-      //================== phonegap-plugin-push ==============start====
-      const push = PushNotification.init({
-        android: {
-        },
-        browser: {
-          // pushServiceURL: 'https://neura-276e6.firebaseio.com',
-          pushServiceURL: 'https://fcm.googleapis.com/fcm/send',
-          applicationServerKey: 'BC_wXdQ3gUfUumewxYMMLlicXBCYfu0ttZzUCa2TosPk8-hiXgKAEDgbUDSGB4sKM02qaXP2IGtCOt7jbvmNeMM'
-        },
-        ios: {
-          alert: "true",
-          badge: "true",
-          sound: "true"
-        },
-        windows: {}
-      });
-
-      push.on('registration', (data) => {
-        // data.registrationId
-        console.log('registration', data);
-      });
-
-      push.on('notification', (data) => {
-        // data.message,
-        // data.title,
-        // data.count,
-        // data.sound,
-        // data.image,
-        // data.additionalData
-        console.log('notification', data);
-      });
-
-      push.on('error', (e) => {
-        // e.message
-        console.log('error', e);
-      });
-      //================== phonegap-plugin-push ==============end====
+       
 
 
       app.receivedEvent('deviceready');
@@ -201,7 +165,7 @@ var app = {
         output('Neura init failed [' + errorCode + ']');
       };
 
-      neura.init("****************", "*****************", success, failure);
+       
       // neura.init("c532adf109730db39b6600b8574035f316a62be5e223dd5524fc17bb96f88c27", "1da1870dad66f1028fb68a7bba70164546852c95b7e81d3bc525fa6b40d541b1", success, failure);
 
 

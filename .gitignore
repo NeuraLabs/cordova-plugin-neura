@@ -1,4 +1,2 @@
-platforms/android/.gradle/
-platforms/android/.idea/caches/build_file_checksums.ser
-platforms/android/app/build/
-platforms/android/CordovaLib/build/
+platforms/
+node_modules/

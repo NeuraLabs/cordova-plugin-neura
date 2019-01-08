@@ -6,14 +6,11 @@
     "platforms": [],
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-neura": {},
-      "phonegap-plugin-push": {}
+      "cordova-plugin-neura": {}
     }
   },
   "dependencies": {
-    "cordova-android": "^7.1.4",
     "cordova-plugin-neura": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "cordova-plugin-whitelist": "1",
-    "phonegap-plugin-push": "https://github.com/phonegap/phonegap-plugin-push"
+    "cordova-plugin-whitelist": "1"
   }
 }

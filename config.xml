@@ -26,5 +26,4 @@
         <resource-file src="GoogleService-Info.plist" />
     </platform>
     <plugin name="cordova-plugin-neura" spec="https://github.com/NeuraLabs/cordova-neura-plugin.git" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/phonegap/phonegap-plugin-push" />
 </widget>
