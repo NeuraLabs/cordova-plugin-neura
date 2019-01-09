@@ -14,7 +14,11 @@
 		<source-file src="src/android/neura.java" target-dir="src/com/neura/cordova/plugin" />
 		<source-file src="src/android/NeuraEventsService.java" target-dir="src/com/neura/cordova/plugin" />
 		<framework src="com.theneura:android-sdk:+" />
-
+		<framework src="com.google.android.gms:play-services-gcm:15.0.1"/>
+		<framework src="com.google.android.gms:play-services-location:15.0.1"/>
+		<framework src="com.google.android.gms:play-services-awareness:15.0.1"/>
+		<framework src="com.google.firebase:firebase-messaging:17.1.0"/>
+		<dependency id="cordova-support-google-services" version="~1.2.0"/>
 		<config-file target="AndroidManifest.xml" parent="/*">
 			<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 			<uses-permission android:name="android.permisssion.ACCESS_COARSE_LOCATION" />
