@@ -10,7 +10,7 @@
     }
   },
   "dependencies": {
-    "cordova-plugin-neura": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
+    "cordova-plugin-neura": "https://github.com/NeuraLabs/cordova-plugin-neura.git",
     "cordova-plugin-whitelist": "1"
   }
 }
