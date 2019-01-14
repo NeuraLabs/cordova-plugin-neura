@@ -24,7 +24,7 @@ To run the sample app please follow these steps:
 
 ## iOS - plugin integration into sample application
 
-**iOS implementation is currently under development and in beta** 
+### iOS implementation is currently under development and in beta
 Due to a fact the cordova-neura-plugin is based on NeuraSDK.framework, and the framework is distributed separately from the plugin, please perform following steps to set up the environment correctly.
 
 1. Download <a href="https://github.com/NeuraLabs/cordova-neura-plugin.git">Neura Cordova Plugin</a>
