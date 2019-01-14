@@ -6,25 +6,25 @@ This plugin is a wrapper of the <a href="https://dev.theneura.com/">Neura SDK</a
 
 Install via repo url directly:
 
-    cordova plugin add https://github.com/NeuraLabs/cordova-neura-plugin.git
+    cordova plugin add https://github.com/NeuraLabs/cordova-plugin-neura.git
     
 ## Sample app
 
 
-The sample app included in this repo demonstrates the basic usage of the Neura SDK via this plugin.
+The sample app included in this repo under the branch "sample"  demonstrates the basic usage of the Neura SDK via this plugin.
 To run the sample app please follow these steps:
 
 ## Android
     
-1. Download the <a href="https://github.com/NeuraLabs/cordova-neura-plugin/blob/master/NeuraSampleCordova.zip">sample app zip file</a> and extract it
+1. Pull or download the code in branch "sample"
 2. cd to the sample app folder
-3. Add the cordova-neura-plugin as described in the <a href="https://github.com/NeuraLabs/cordova-neura-plugin/blob/master/README.md#installation">installation guide</a> above
-4. Add the <a href="https://github.com/phonegap/phonegap-plugin-push">phonegap-plugin-push</a> to the sample app as described on its <a href="https://github.com/phonegap/phonegap-plugin-push/blob/master/docs/INSTALLATION.md">installation guide</a>
-5. run `cordova platforms add android`
-6. run `cordova run android`
+3. run `cordova platforms add android`
+4. In the file platforms/android/app/src/main/java/com/neura/cordova/plugin/neura.java Add your app's UID and Secret as you received them after registering your app with Neura
+5. run `cordova run android`
 
 ## iOS - plugin integration into sample application
 
+**iOS implementation is currently under development and in beta** 
 Due to a fact the cordova-neura-plugin is based on NeuraSDK.framework, and the framework is distributed separately from the plugin, please perform following steps to set up the environment correctly.
 
 1. Download <a href="https://github.com/NeuraLabs/cordova-neura-plugin.git">Neura Cordova Plugin</a>
