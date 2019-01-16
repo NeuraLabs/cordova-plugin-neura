@@ -151,7 +151,7 @@ public class neura extends CordovaPlugin {
                     action=EngagementFeatureAction.CLOSE;
                     break;
             }
-            NeuraEngagements.tagEngagementFeature(mInterface.getContext(),args.getString(1),null,action,null);
+            NeuraEngagements.tagEngagementFeature(mInterface.getContext(),args.getString(0),null,action,null);
             callbackContext.success();
         } catch (JSONException e) {
             e.printStackTrace();
