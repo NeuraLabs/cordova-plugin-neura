@@ -95,7 +95,7 @@ var app = {
           output('Neura tagEngagementFeature failed [' + errorCode + ']');
         };
 
-        neura.tagEngagementFeature("SNOOZE",success, failure);
+        neura.tagEngagementFeature("featureName","SNOOZE",success, failure);
       };
 
 
@@ -139,7 +139,6 @@ var app = {
         var push = PushNotification.init({
           android: {
             senderID: "************"
-            // senderID: "904777039558"
           }
         });
 
@@ -162,9 +161,7 @@ var app = {
         output('Neura init failed [' + errorCode + ']');
       };
 
-       
-      // neura.init("c532adf109730db39b6600b8574035f316a62be5e223dd5524fc17bb96f88c27", "1da1870dad66f1028fb68a7bba70164546852c95b7e81d3bc525fa6b40d541b1", success, failure);
-
+      
 
     },
 

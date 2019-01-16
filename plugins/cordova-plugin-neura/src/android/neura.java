@@ -135,7 +135,7 @@ public class neura extends CordovaPlugin {
     private void tagEngagementFeature(JSONArray args, CallbackContext callbackContext) {
         EngagementFeatureAction action;
         try {
-            switch ( args.getString(0)){
+            switch ( args.getString(1)){
                 case "CLOSE": action=EngagementFeatureAction.CLOSE;
                     break;
                 case "OPT_OUT ": action=EngagementFeatureAction.OPT_OUT ;
@@ -151,7 +151,7 @@ public class neura extends CordovaPlugin {
                     action=EngagementFeatureAction.CLOSE;
                     break;
             }
-            NeuraEngagements.tagEngagementFeature(mInterface.getContext(),"feature",null,action,null);
+            NeuraEngagements.tagEngagementFeature(mInterface.getContext(),args.getString(1),null,action,null);
             callbackContext.success();
         } catch (JSONException e) {
             e.printStackTrace();

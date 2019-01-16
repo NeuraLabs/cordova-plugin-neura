@@ -19,8 +19,8 @@ module.exports = {
     tagEngagementAttempt : function(featureName,success, error) {
         exec(success, error, "neura", "tagEngagementAttempt", [featureName]);
     },
-    tagEngagementFeature : function(featureName,success, error) {
-        exec(success, error, "neura", "tagEngagementFeature", [featureName]);
+    tagEngagementFeature : function(featureName,action,success, error) {
+        exec(success, error, "neura", "tagEngagementFeature", [featureName,action]);
     },
 	getToken : function(success, error) {
         exec(success, error, "neura", "getToken", []);
