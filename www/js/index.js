@@ -11,9 +11,7 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 
-       
-
-
+      
       app.receivedEvent('deviceready');
 
       var neura = window.cordova.plugins.neura;
@@ -62,7 +60,7 @@ var app = {
       };
 
 
-      var subscribeToEvent = function(eventName, webHookId, neuraSendEventViaPush) {
+      var subscribeToEvent = function(eventName, eventIdentifier) {
         var success = function(eventName) {
           output('Neura subscribeToEvent success [' + eventName + ']');
         };
@@ -71,11 +69,11 @@ var app = {
           output('Neura subscribeToEvent failed [' + errorCode + ']');
         };
 
-        neura.subscribeToEvent(eventName, webHookId, neuraSendEventViaPush, success, failure);
+        neura.subscribeToEvent("userLeftHome", "YourMomentIdentifier_userLeftHome", success, failure);
       };
 
 
-      var simulateAnEvent = function() {
+      var simulateAnEvent = function(eventName) {
         var success = function() {
           output('Neura simulateAnEvent success');
         };
@@ -84,11 +82,11 @@ var app = {
           output('Neura simulateAnEvent failed [' + errorCode + ']');
         };
 
-        neura.simulateAnEvent(success, failure);
+        neura.simulateAnEvent("userLeftHome",success, failure);
       };
 
 
-      var tagEngagementFeature = function() {
+      var tagEngagementFeature = function(featureName) {
         var success = function() {
           output('Neura tagEngagementFeature success');
         };
@@ -97,11 +95,11 @@ var app = {
           output('Neura tagEngagementFeature failed [' + errorCode + ']');
         };
 
-        neura.tagEngagementFeature(success, failure);
+        neura.tagEngagementFeature("SNOOZE",success, failure);
       };
 
 
-      var tagEngagementAttempt = function() {
+      var tagEngagementAttempt = function(featureName) {
         var success = function() {
           output('Neura tagEngagementAttempt success');
         };
@@ -110,20 +108,20 @@ var app = {
           output('Neura tagEngagementAttempt failed [' + errorCode + ']');
         };
 
-        neura.tagEngagementAttempt(success, failure);
+        neura.tagEngagementAttempt("SNOOZE",success, failure);
       };
-	  
-      var getToken = function() {
+       var getToken = function() {
         var success = function(code) {
           output(code);
         };
 
-        var failure = function() {
-          output('Neura getToken failed failed');
+        var failure = function(errorCode) {
+          output('Neura failed [' + errorCode + ']');
         };
 
         neura.getToken(success, failure);
       };
+
 
 
       document.getElementById("getAnonymousAuthenticationState").addEventListener("click", getAnonymousAuthenticationState);
@@ -133,8 +131,7 @@ var app = {
       document.getElementById("simulateAnEvent").addEventListener("click", simulateAnEvent);
       document.getElementById("tagEngagementAttempt").addEventListener("click", tagEngagementAttempt);
       document.getElementById("tagEngagementFeature").addEventListener("click", tagEngagementFeature);
-	  document.getElementById("getToken").addEventListener("click", getToken);
-
+    document.getElementById("getToken").addEventListener("click", getToken);
 
       var success = function() {
         output('Neura init success');

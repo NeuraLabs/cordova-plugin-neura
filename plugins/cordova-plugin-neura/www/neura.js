@@ -10,17 +10,17 @@ module.exports = {
     forgetMe : function(showAreYouSureDialog, success, error) {
         exec(success, error, "neura", "forgetMe", [showAreYouSureDialog]);
     },
-    subscribeToEvent : function(eventName, webHookId, neuraSendEventViaPush, success, error) {
-        exec(success, error, "neura", "subscribeToEvent", [eventName, webHookId, neuraSendEventViaPush]);
+    subscribeToEvent : function(eventName, eventIdentifier, success, error) {
+        exec(success, error, "neura", "subscribeToEvent", [eventName, eventIdentifier]);
     },
-    simulateAnEvent : function(success, error) {
-        exec(success, error, "neura", "simulateAnEvent");
+    simulateAnEvent : function(eventName,success, error) {
+        exec(success, error, "neura", "simulateAnEvent",[eventName]);
     },
-    tagEngagementAttempt : function(success, error) {
-        exec(success, error, "neura", "tagEngagementAttempt", []);
+    tagEngagementAttempt : function(featureName,success, error) {
+        exec(success, error, "neura", "tagEngagementAttempt", [featureName]);
     },
-    tagEngagementFeature : function(success, error) {
-        exec(success, error, "neura", "tagEngagementFeature", []);
+    tagEngagementFeature : function(featureName,success, error) {
+        exec(success, error, "neura", "tagEngagementFeature", [featureName]);
     },
 	getToken : function(success, error) {
         exec(success, error, "neura", "getToken", []);
