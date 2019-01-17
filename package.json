@@ -1,30 +1,30 @@
 {
-  "_from": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git",
-  "_id": "cordova-neura-plugin@0.1.0",
+  "_from": "git+https://github.com/NeuraLabs/cordova-plugin-neura.git",
+  "_id": "cordova-plugin-neura@0.1.0",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/cordova-neura-plugin",
+  "_location": "/cordova-plugin-neura",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "rawSpec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "saveSpec": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git",
-    "fetchSpec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
+    "raw": "https://github.com/NeuraLabs/cordova-plugin-neura.git",
+    "rawSpec": "https://github.com/NeuraLabs/cordova-plugin-neura.git",
+    "saveSpec": "git+https://github.com/NeuraLabs/cordova-plugin-neura.git",
+    "fetchSpec": "https://github.com/NeuraLabs/cordova-plugin-neura.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git#c3c92bf8c84ac01e134415ea5fb37fe7f6c20d0c",
-  "_spec": "https://github.com/NeuraLabs/cordova-neura-plugin.git",
+  "_resolved": "git+https://github.com/NeuraLabs/cordova-plugin-neura.git#c3c92bf8c84ac01e134415ea5fb37fe7f6c20d0c",
+  "_spec": "https://github.com/NeuraLabs/cordova-plugin-neura.git",
   "_where": "C:\\IdeaSoft\\NeuraSampleCordova",
   "author": {
     "name": "Neura"
   },
   "bugs": {
-    "url": "https://github.com/NeuraLabs/cordova-neura-plugin/issues"
+    "url": "https://github.com/NeuraLabs/cordova-plugin-neura/issues"
   },
   "bundleDependencies": false,
   "cordova": {
@@ -36,17 +36,17 @@
   },
   "deprecated": false,
   "description": "Cordova Neura Plugin",
-  "homepage": "https://github.com/NeuraLabs/cordova-neura-plugin#readme",
+  "homepage": "https://github.com/NeuraLabs/cordova-plugin-neura#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios"
   ],
   "license": "ISC",
-  "name": "cordova-neura-plugin",
+  "name": "cordova-plugin-neura",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeuraLabs/cordova-neura-plugin.git"
+    "url": "git+https://github.com/NeuraLabs/cordova-plugin-neura.git"
   },
   "version": "0.1.0"
 }
