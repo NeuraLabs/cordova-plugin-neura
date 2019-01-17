@@ -52,11 +52,11 @@ public class neura extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         Log.d(TAG, "execute() called with: " + "action = [" + action + "], args = [" + args + "], callbackContext = [" + callbackContext + "]");
         if (mNeuraApiClient==null)
-        init1();
+            initNeura();
         try {
             checkLocation();
             if (action.equals("authenticate")) {
-                this.authenticate1(args, callbackContext);
+                this.authenticateNeuraUser(args, callbackContext);
                 return true;
             }else if (action.equals("forgetMe")) {
                 this.forgetMe(args, callbackContext);
@@ -66,23 +66,19 @@ public class neura extends CordovaPlugin {
                 this.getAnonymousAuthenticationState(args, callbackContext);
                 return true;
             }
-            else if (action.equals("logOut")) {
-                this.forgetMe(args, callbackContext);
-                return true;
-            }
             else if (action.equals("subscribeToEvent")) {
                 this.subscribeToEvent(args, callbackContext);
                 return true;
             }
             else if (action.equals("simulateAnEvent")) {
-                this.simulateUserLeftHome(args, callbackContext);
+                this.simulateAnEvent(args, callbackContext);
                 return true;
             }
             else if (action.equals("tagEngagementAttempt")) {
                 this.tagEngagementAttempt(args, callbackContext);
                 return true;
             }
-			else if (action.equals("getToken")) {
+            else if (action.equals("getToken")) {
                 this.getToken(args, callbackContext);
                 return true;
             }
@@ -107,43 +103,70 @@ public class neura extends CordovaPlugin {
                     new String[]{ android.Manifest.permission.ACCESS_FINE_LOCATION}, 1111);
         }
     }
-	
-    private void authenticate1(JSONArray args, CallbackContext callbackContext) {
 
-                       mNeuraApiClient.authenticate(new AnonymousAuthenticationRequest(FirebaseInstanceId.getInstance().getToken()), new AnonymousAuthenticateCallBack() {
-                            @Override
-                            public void onSuccess(AnonymousAuthenticateData data) {
-                                System.out.println(data);
-                                callbackContext.success();
-                            }
+    private void authenticateNeuraUser(JSONArray args, CallbackContext callbackContext) {
 
-                            @Override
-                            public void onFailure(int i) {
-                                System.out.println(i);
-                                callbackContext.error(i);
-                            }
-                        });
+        mNeuraApiClient.authenticate(new AnonymousAuthenticationRequest(FirebaseInstanceId.getInstance().getToken()), new AnonymousAuthenticateCallBack() {
+            @Override
+            public void onSuccess(AnonymousAuthenticateData data) {
+                System.out.println(data);
+                callbackContext.success();
+            }
+
+            @Override
+            public void onFailure(int i) {
+                System.out.println(i);
+                callbackContext.error(i);
+            }
+        });
     }
 
-	 private void getToken(JSONArray args, CallbackContext callbackContext) {
-	 try{
-		 String token = mNeuraApiClient.getUserAccessToken();
-		 Log.wtf("userToken",token);
-		 callbackContext.success(token);
-	 }
-	 catch(Exception e ){
-		 callbackContext.error(e.toString());
-	 }
-	 }
+    private void getToken(JSONArray args, CallbackContext callbackContext) {
+        try{
+            String token = mNeuraApiClient.getUserAccessToken();
+            Log.wtf("userToken",token);
+            callbackContext.success(token);
+        }
+        catch(Exception e ){
+            callbackContext.error(e.toString());
+        }
+    }
 
     private void tagEngagementFeature(JSONArray args, CallbackContext callbackContext) {
-		NeuraEngagements.tagEngagementFeature(mInterface.getContext(),"feature","2",EngagementFeatureAction.SUCCESS,"feature");
-		callbackContext.success();
+        EngagementFeatureAction action;
+        try {
+            switch ( args.getString(1)){
+                case "CLOSE": action=EngagementFeatureAction.CLOSE;
+                    break;
+                case "OPT_OUT ": action=EngagementFeatureAction.OPT_OUT ;
+                    break;
+                case "REJECT": action=EngagementFeatureAction.REJECT;
+                    break;
+                case "SNOOZE": action=EngagementFeatureAction.SNOOZE;
+                    break;
+                case "SUCCESS": action=EngagementFeatureAction.SUCCESS ;
+                    break;
+                default:
+                    callbackContext.error(ERROR_CODE_INVALID_ARGS);
+                    action=EngagementFeatureAction.CLOSE;
+                    break;
+            }
+            NeuraEngagements.tagEngagementFeature(mInterface.getContext(),args.getString(0),null,action,null);
+            callbackContext.success();
+        } catch (JSONException e) {
+            e.printStackTrace();
+            callbackContext.error(ERROR_CODE_INVALID_ARGS);
+        }
     }
 
     private void tagEngagementAttempt(JSONArray args, CallbackContext callbackContext) {
-        NeuraEngagements.tagEngagementAttempt(mInterface.getContext(),"feature","1","red");
-        callbackContext.success();
+        try {
+            NeuraEngagements.tagEngagementAttempt(mInterface.getContext(),args.getString(0),null,null);
+            callbackContext.success();
+        } catch (JSONException e) {
+            callbackContext.error(ERROR_CODE_INVALID_ARGS);
+            e.printStackTrace();
+        }
 
     }
 
@@ -153,9 +176,9 @@ public class neura extends CordovaPlugin {
         Toast.makeText(mInterface.getContext(), authenticationState.toString(),Toast.LENGTH_SHORT).show();
     }
 
-    
 
-    private void init1(){
+
+    private void initNeura(){
         mNeuraApiClient = NeuraApiClient.getClient(mInterface.getContext(),"us-f62e09ed95ccb5b0fbdd291580d228a1aaa7bc054b4b059c03368bd34b203e16", "d261c3b18ea0e0a9dc78f12b43c316d90aade9bed95a4fa29114fd1421e20f22");
     }
 
@@ -180,30 +203,23 @@ public class neura extends CordovaPlugin {
 
     private void subscribeToEvent(JSONArray args, final CallbackContext callbackContext) {
         try {
-/*            //Define moments you would like to subscribe to.
-            List<String> moments = Arrays.asList("userStartedWalking", "userFinishedWalking",
-                    "userStartedDriving", "userFinishedDriving", "userWokeUp", "userGotUp", "userIsIdleFor2Hours",
-                    "userIsAboutToGoToSleep", "userArrivedHome", "userLeftHome",
-                    "userArrivedToWork", "userLeftWork");
+            String eventName = args.getString(0);
+            String eventIdentifier = args.getString(1);
+            mNeuraApiClient.subscribeToEvent(eventName ,
+                    eventIdentifier ,
+                    new SubscriptionRequestCallbacks() {
+                        @Override
+                        public void onSuccess(String eventName, Bundle bundle, String s1) {
+                            Log.i(getClass().getSimpleName(), "Successfully subscribed to event " + eventName);
+                            callbackContext.success(eventName);
+                        }
 
-//Subscribe to the moments you wish Neura to alert you :
-            for (int i = 0; i < moments.size(); i++) {*/
-// YourMomentIdentifier_ is recommended to be the NeuraID of the user for follow up with customer suppport
-                mNeuraApiClient.subscribeToEvent("userArrivedToWork" ,
-                        "YourMomentIdentifier_userArrivedToWork" ,
-                        new SubscriptionRequestCallbacks() {
-                            @Override
-                            public void onSuccess(String eventName, Bundle bundle, String s1) {
-                                Log.i(getClass().getSimpleName(), "Successfully subscribed to event " + eventName);
-                                callbackContext.success(eventName);
-                            }
-
-                            @Override
-                            public void onFailure(String eventName, Bundle bundle, int i) {
-                                Log.e(getClass().getSimpleName(), "Failed to subscribe to event " + eventName);
-                                callbackContext.error(i);
-                            }
-                        });
+                        @Override
+                        public void onFailure(String eventName, Bundle bundle, int i) {
+                            Log.e(getClass().getSimpleName(), "Failed to subscribe to event " + eventName);
+                            callbackContext.error(i);
+                        }
+                    });
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -212,18 +228,24 @@ public class neura extends CordovaPlugin {
         }
     }
 
-    private void simulateUserLeftHome(@SuppressWarnings("UnusedParameters") JSONArray args, final CallbackContext callbackContext) {
-        mNeuraApiClient.simulateAnEvent("userArrivedToWork", new SimulateEventCallBack() {
-            @Override
-            public void onSuccess(String s) {
-                callbackContext.success();
-            }
+    private void simulateAnEvent(JSONArray args, final CallbackContext callbackContext) {
+        try {
+            String eventName = args.getString(0);
+            mNeuraApiClient.simulateAnEvent(eventName, new SimulateEventCallBack() {
+                @Override
+                public void onSuccess(String s) {
+                    callbackContext.success();
+                }
 
-            @Override
-            public void onFailure(String s, String s1) {
-                callbackContext.error(ERROR_CODE_INVALID_ARGS);
-            }
-        });
+                @Override
+                public void onFailure(String s, String s1) {
+                    callbackContext.error(ERROR_CODE_INVALID_ARGS);
+                }
+            });
+        } catch (JSONException e) {
+            e.printStackTrace();
+            callbackContext.error(ERROR_CODE_INVALID_ARGS);
+        }
     }
 
 }
