@@ -4,7 +4,7 @@ This plugin is a wrapper of the <a href="https://dev.theneura.com/">Neura SDK</a
 
 ## Installation
 
-Install via repo url directly:
+Fork/download to your plugins folder or install via repo url directly:
 
     cordova plugin add https://github.com/NeuraLabs/cordova-plugin-neura.git
     
