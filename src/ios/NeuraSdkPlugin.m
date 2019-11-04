@@ -195,10 +195,6 @@ NSString * webHook = @"";
     }];
 }
 
-- (void)registerPushServerApiKey:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
 - (void)forgetMe:(CDVInvokedUrlCommand*)command {
 
     [self logCalledApi:NSStringFromSelector(_cmd)];
@@ -298,10 +294,6 @@ NSString * webHook = @"";
     }];
 }
 
-- (void)shouldSubscribeToEvent:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
 - (void)getAppPermissions:(CDVInvokedUrlCommand*)command {
 
     [self logCalledApi:NSStringFromSelector(_cmd)];
@@ -315,22 +307,6 @@ NSString * webHook = @"";
 
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
     }];
-}
-
-- (void)getPermissionStatus:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
-- (void)enableLogFile:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
-- (void)enableAutomaticallySyncLogs:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
-- (void)enableNeuraHandingStateAlertMessages:(CDVInvokedUrlCommand*)command {
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
 }
 
 - (void)getSdkVersion:(CDVInvokedUrlCommand*)command {
@@ -516,17 +492,6 @@ NSString * webHook = @"";
 
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
     }];
-}
-
-
-- (void)getUserDetails:(CDVInvokedUrlCommand*)command {
-
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
-}
-
-- (void)getUserPhone:(CDVInvokedUrlCommand*)command {
-
-    [self handleUnsupportedApiCall:NSStringFromSelector(_cmd) withCommand:command];
 }
 
 - (void)simulateAnEvent:(CDVInvokedUrlCommand*)command {

@@ -14,6 +14,7 @@ import com.neura.resources.authentication.AnonymousAuthenticateData;
 import com.neura.resources.authentication.AnonymousAuthenticationStateListener;
 import com.neura.resources.authentication.AuthenticationState;
 import com.neura.sdk.object.AnonymousAuthenticationRequest;
+import com.neura.sdk.object.SubscriptionMethod;
 import com.neura.sdk.service.SimulateEventCallBack;
 import com.neura.sdk.service.SubscriptionRequestCallbacks;
 import com.neura.standalonesdk.engagement.EngagementFeatureAction;
@@ -66,10 +67,6 @@ public class neura extends CordovaPlugin {
                 this.getAnonymousAuthenticationState(args, callbackContext);
                 return true;
             }
-            else if (action.equals("subscribeToEvent")) {
-                this.subscribeToEvent(args, callbackContext);
-                return true;
-            }
             else if (action.equals("simulateAnEvent")) {
                 this.simulateAnEvent(args, callbackContext);
                 return true;
@@ -84,6 +81,26 @@ public class neura extends CordovaPlugin {
             }
             else if (action.equals("tagEngagementFeature")) {
                 this.tagEngagementFeature(args, callbackContext);
+                return true;
+            }
+            else if (action.equals("setExternalId")) {
+                this.setExternalId(args, callbackContext);
+                return true;
+            }
+            else if (action.equals("subscribeToEventWithWebhook")) {
+                this.subscribeToEvent(args, SubscriptionMethod.WEBHOOK, callbackContext);
+                return true;
+            }
+            else if (action.equals("subscribeToEventWithPush")) {
+                this.subscribeToEvent(args, SubscriptionMethod.PUSH, callbackContext);
+                return true;
+            }
+            else if (action.equals("subscribeToEventWithBraze")) {
+                this.subscribeToEvent(args, SubscriptionMethod.BRAZE, callbackContext);
+                return true;
+            }
+            else if (action.equals("subscribeToEventWithSFMC")) {
+                this.subscribeToEvent(args, SubscriptionMethod.SFMC, callbackContext);
                 return true;
             }
         } catch (Exception e) {
@@ -123,9 +140,14 @@ public class neura extends CordovaPlugin {
 
     private void getToken(JSONArray args, CallbackContext callbackContext) {
         try{
-            String token = mNeuraApiClient.getUserAccessToken();
-            Log.wtf("userToken",token);
-            callbackContext.success(token);
+            if (mNeuraApiClient.isLoggedIn()) {
+                String token = mNeuraApiClient.getUserAccessToken();
+                Log.wtf("userToken",token);
+                callbackContext.success(token);
+            } else {
+                Log.wtf("User is not logged in");
+                callbackContext.error("Not logged in");
+            }
         }
         catch(Exception e ){
             callbackContext.error(e.toString());
@@ -200,13 +222,46 @@ public class neura extends CordovaPlugin {
         });
     }
 
+    private void simulateAnEvent(JSONArray args, final CallbackContext callbackContext) {
+        try {
+            String eventName = args.getString(0);
+            mNeuraApiClient.simulateAnEvent(eventName, new SimulateEventCallBack() {
+                @Override
+                public void onSuccess(String s) {
+                    callbackContext.success();
+                }
 
-    private void subscribeToEvent(JSONArray args, final CallbackContext callbackContext) {
+                @Override
+                public void onFailure(String s, String s1) {
+                    callbackContext.error("Simulate event failed");
+                }
+            });
+        } catch (JSONException e) {
+            e.printStackTrace();
+            callbackContext.error(ERROR_CODE_INVALID_ARGS);
+        }
+    }
+
+    private void setExternalId(JSONArray args, final CallbackContext callbackContext) {
+        try {
+            String externalId = args.getString(0);
+            mNeuraApiClient.setExternalId(externalId);
+        } catch (Exception e) {
+            e.printStackTrace();
+
+            callbackContext.error(ERROR_CODE_INVALID_ARGS);
+        }
+    }
+
+    private void subscribeToEvent(JSONArray args, SubscriptionMethod method, final CallbackContext callbackContext) {
         try {
             String eventName = args.getString(0);
             String eventIdentifier = args.getString(1);
-            mNeuraApiClient.subscribeToEvent(eventName ,
-                    eventIdentifier ,
+            String webhookId = args.getString(2);
+            mNeuraApiClient.subscribeToEvent(eventName,
+                    eventIdentifier,
+                    method,
+                    webhookId,
                     new SubscriptionRequestCallbacks() {
                         @Override
                         public void onSuccess(String eventName, Bundle bundle, String s1) {
@@ -227,25 +282,5 @@ public class neura extends CordovaPlugin {
             callbackContext.error(ERROR_CODE_INVALID_ARGS);
         }
     }
-
-    private void simulateAnEvent(JSONArray args, final CallbackContext callbackContext) {
-        try {
-            String eventName = args.getString(0);
-            mNeuraApiClient.simulateAnEvent(eventName, new SimulateEventCallBack() {
-                @Override
-                public void onSuccess(String s) {
-                    callbackContext.success();
-                }
-
-                @Override
-                public void onFailure(String s, String s1) {
-                    callbackContext.error(ERROR_CODE_INVALID_ARGS);
-                }
-            });
-        } catch (JSONException e) {
-            e.printStackTrace();
-            callbackContext.error(ERROR_CODE_INVALID_ARGS);
-        }
-    }
-
 }
+

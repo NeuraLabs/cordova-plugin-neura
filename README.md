@@ -63,6 +63,3 @@ const neura = window['cordova'].plugins.neura;
 neura.init(appUid, appSecret, success, error);
 neura.authenticate(permissions, phone, success, error);
 ```
-```javascript
-neura.subscribeToEvent(eventName, webHookId, neuraSendEventViaPush, success, failure);
-```

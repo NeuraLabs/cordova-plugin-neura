@@ -21,15 +21,7 @@
 - (void)addDeviceByName:(CDVInvokedUrlCommand*)command;
 - (void)getUserSituation:(CDVInvokedUrlCommand*)command;
 
-// UNSUPPORTED
-- (void)shouldSubscribeToEvent:(CDVInvokedUrlCommand*)command;
-- (void)registerPushServerApiKey:(CDVInvokedUrlCommand*)command;
-- (void)getPermissionStatus:(CDVInvokedUrlCommand*)command;
-- (void)enableLogFile:(CDVInvokedUrlCommand*)command;
-- (void)enableAutomaticallySyncLogs:(CDVInvokedUrlCommand*)command;
-- (void)enableNeuraHandingStateAlertMessages:(CDVInvokedUrlCommand*)command;
-- (void)getUserDetails:(CDVInvokedUrlCommand*)command;
-- (void)getUserPhone:(CDVInvokedUrlCommand*)command;
+
 - (void)simulateAnEvent:(CDVInvokedUrlCommand*)command;
 
 @end
