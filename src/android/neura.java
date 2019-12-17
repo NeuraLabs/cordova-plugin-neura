@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.ActivityCompat;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -142,10 +141,10 @@ public class neura extends CordovaPlugin {
         try{
             if (mNeuraApiClient.isLoggedIn()) {
                 String token = mNeuraApiClient.getUserAccessToken();
-                Log.wtf("userToken",token);
+                // token is the "user AccessToken"
                 callbackContext.success(token);
             } else {
-                Log.wtf("User is not logged in");
+                // User is not logged in
                 callbackContext.error("Not logged in");
             }
         }
@@ -194,11 +193,8 @@ public class neura extends CordovaPlugin {
 
     private void getAnonymousAuthenticationState(JSONArray args, CallbackContext callbackContext) {
         AuthenticationState authenticationState=mNeuraApiClient.getAnonymousAuthenticationState();
-        Log.wtf("auth",authenticationState.toString());
         Toast.makeText(mInterface.getContext(), authenticationState.toString(),Toast.LENGTH_SHORT).show();
     }
-
-
 
     private void initNeura(){
         mNeuraApiClient = NeuraApiClient.getClient(mInterface.getContext(),"us-f62e09ed95ccb5b0fbdd291580d228a1aaa7bc054b4b059c03368bd34b203e16", "d261c3b18ea0e0a9dc78f12b43c316d90aade9bed95a4fa29114fd1421e20f22");
