@@ -197,7 +197,9 @@ public class neura extends CordovaPlugin {
     }
 
     private void initNeura(){
-        mNeuraApiClient = NeuraApiClient.getClient(mInterface.getContext(),"us-f62e09ed95ccb5b0fbdd291580d228a1aaa7bc054b4b059c03368bd34b203e16", "d261c3b18ea0e0a9dc78f12b43c316d90aade9bed95a4fa29114fd1421e20f22");
+        String appUID = getActivity().getIntent().getStringExtra("NeuraAppUID");
+        String appSecret = getActivity().getIntent().getStringExtra("NeuraAppSecret");
+        mNeuraApiClient = NeuraApiClient.getClient(mInterface.getContext(),appUID, appSecret);
     }
 
     private void forgetMe(JSONArray args, final CallbackContext callbackContext) {
