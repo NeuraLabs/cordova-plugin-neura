@@ -7,9 +7,11 @@ This plugin is a wrapper of the <a href="https://dev.theneura.com/">Neura SDK</a
 Fork/download to your plugins folder or install via repo url directly:
 
     cordova plugin add https://github.com/NeuraLabs/cordova-plugin-neura.git
+    add to your config.xml file, two custom preferences:
+    <preference name="NeuraAppUID" value="Copy value from your developer console account on dev.theneura.com/console" />
+    <preference name="NeuraAppSecret" value="Copy value from your developer console account on dev.theneura.com/console" />
     
 ## Sample app
-
 
 The sample app included in this repo under the branch "sample"  demonstrates the basic usage of the Neura SDK via this plugin.
 To run the sample app please follow these steps:
@@ -19,7 +21,9 @@ To run the sample app please follow these steps:
 1. Pull or download the code in branch "sample"
 2. cd to the sample app folder
 3. run `cordova platforms add android`
-4. In the file platforms/android/app/src/main/java/com/neura/cordova/plugin/neura.java Add your app's UID and Secret as you received them after registering your app with Neura
+4. add to your config.xml file, two custom preferences:
+<preference name="NeuraAppUID" value="Copy value from your developer console account on dev.theneura.com/console" />
+<preference name="NeuraAppSecret" value="Copy value from your developer console account on dev.theneura.com/console" />
 5. run `cordova run android`
 
 ## iOS - plugin integration into sample application
