@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.ActivityCompat;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.neura.resources.authentication.AnonymousAuthenticateCallBack;
@@ -197,8 +198,8 @@ public class neura extends CordovaPlugin {
     }
 
     private void initNeura(){
-        String appUID = getActivity().getIntent().getStringExtra("NeuraAppUID");
-        String appSecret = getActivity().getIntent().getStringExtra("NeuraAppSecret");
+        String appUID = cordova.getActivity().getIntent().getStringExtra("NeuraAppUID");
+        String appSecret = cordova.getActivity().getIntent().getStringExtra("NeuraAppSecret");
         mNeuraApiClient = NeuraApiClient.getClient(mInterface.getContext(),appUID, appSecret);
     }
 
