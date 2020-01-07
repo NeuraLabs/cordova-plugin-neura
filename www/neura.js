@@ -26,15 +26,15 @@ module.exports = {
         exec(success, error, "neura", "setExternalId",[externalId]);
     },
     subscribeToEventWithWebhook: function(eventName, eventID, webhookID) {
-        exec(success, error, "neura", "subscribeToEventWithWebhook",[eventName, eventIdentifier, webhookID]);
+        exec(success, error, "neura", "subscribeToEventWithWebhook",[eventName, eventID, webhookID]);
     },
     subscribeToEventWithPush: function(eventName, eventID) {
-        exec(success, error, "neura", "subscribeToEventWithPush",[eventName, eventIdentifier, null]);
+        exec(success, error, "neura", "subscribeToEventWithPush",[eventName, eventID, null]);
     },
     subscribeToEventWithBraze: function(eventName, eventID) {
-        exec(success, error, "neura", "subscribeToEventWithBraze",[eventName, eventIdentifier, null]);
+        exec(success, error, "neura", "subscribeToEventWithBraze",[eventName, eventID, null]);
     },
     subscribeToEventWithSFMC: function(eventName, eventID) {
-        exec(success, error, "neura", "subscribeToEventWithSFMC",[eventName, eventIdentifier, null]);
+        exec(success, error, "neura", "subscribeToEventWithSFMC",[eventName, eventID, null]);
     }
 };
