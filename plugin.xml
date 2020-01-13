@@ -12,6 +12,7 @@
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml"/>
 		<source-file src="src/android/neura.java" target-dir="src/com/neura/cordova/plugin" />
+		<resource-file src="src/android/NeuraStrings.xml" target="res/values/NeuraStrings.xml" />
 		<source-file src="src/android/NeuraEventsService.java" target-dir="src/com/neura/cordova/plugin" />
 		<framework src="com.theneura:android-sdk:+" />
 		<framework src="com.google.android.gms:play-services-gcm:15.0.1"/>
