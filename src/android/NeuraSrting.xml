@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="NeuraAppUID">aaaaaa</string>
-    <string name="NeuraAppSecret">bbbbbbb</string>
+    <string name="NeuraAppUID">YOUR APP ID</string>
+    <string name="NeuraAppSecret">YOUR APP SECRET</string>
 </resources>
