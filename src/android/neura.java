@@ -58,6 +58,7 @@ public class neura extends CordovaPlugin {
             checkLocation();
             if (action.equals("authenticate")) {
                 this.authenticateNeuraUser(args, callbackContext);
+                this.getAnonymousAuthenticationState(args, callbackContext);
                 return true;
             }else if (action.equals("forgetMe")) {
                 this.forgetMe(args, callbackContext);
@@ -127,7 +128,7 @@ public class neura extends CordovaPlugin {
             @Override
             public void onSuccess(AnonymousAuthenticateData data) {
                 System.out.println(data);
-                callbackContext.success();
+                //callbackContext.
             }
 
             @Override
@@ -193,9 +194,30 @@ public class neura extends CordovaPlugin {
     }
 
     private void getAnonymousAuthenticationState(JSONArray args, CallbackContext callbackContext) {
-        AuthenticationState authenticationState=mNeuraApiClient.getAnonymousAuthenticationState();
-        Toast.makeText(mInterface.getContext(), authenticationState.toString(),Toast.LENGTH_SHORT).show();
+
+        mNeuraApiClient.registerAuthStateListener(state -> {
+
+            switch (state) {
+                case AccessTokenRequested:
+                    break;
+
+                case AuthenticatedAnonymously:
+                    mNeuraApiClient.unregisterAuthStateListener();
+                    callbackContext.success();
+
+                    break;
+
+                case NotAuthenticated:
+                    break;
+                case FailedReceivingAccessToken:
+                    mNeuraApiClient.unregisterAuthStateListener();
+                    callbackContext.error("AUTHENTICATE ANONYMOUS STAGE 2: FAILED FailedReceivingAccessToken");
+                    break;
+                default:
+            }
+        });
     }
+
 
     private void initNeura(){
         String appUID  = cordova.getActivity().getString(cordova.getActivity().getResources().getIdentifier( "NeuraAppUID", "string", cordova.getActivity().getPackageName()));
